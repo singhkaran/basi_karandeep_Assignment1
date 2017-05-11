@@ -1,0 +1,3 @@
+import q2
+
+q2.biasedCoin(0.250, 1, 4)

@@ -1,0 +1,15 @@
+from __future__ import division
+import math
+
+def f(x):
+	return x * (x - 1)
+
+def approxDerivative(x, d):
+	return (f(x + d) - f(x)) / d
+
+def logRangeValues():
+	for i in range (4, 20):
+		print approxDerivative(1, math.pow(10, -i))
+
+logRangeValues()
+	
